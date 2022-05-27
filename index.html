@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>new</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="form-signup">
+            <form action="php/signup.php" method="POST">
+                <ul>
+                    <li><input type="text" name="username" required>surname</li> 
+                    <li><input type="email" name="mail">email</li>
+                    <li> <input type="text"name="pwd">password</li>
+                    <li><input type="text" name="rpwd">repeat password</li> 
+                    <li><button type="submit" name="signup_btn">signup</button></li>
+                </ul>
+            </form>
+        </div>
+
+
+        <div class="form-login">
+            <form action="php/login.php" method="post">
+                <ul>
+                <li><input type="text" name="email" required>email</li>
+                <li><input type="text" name="pwd" required> password</li>
+                <li><button type="submit" name="login-btn" required>login</button></li>
+                </ul>
+            </form>
+        </div>
+
+    </div>
+</body>
+</html>

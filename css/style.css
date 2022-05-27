@@ -1,0 +1,75 @@
+.container{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    font-size: medium;
+    background-color: lighgrey;
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+    height: 600px;
+}
+.form-signup{
+    flex: 2;
+    background-color: #DDD;
+    margin: auto;
+    width: 300px;
+    height: 500px;
+}
+.form-signup ul {
+    list-style: none;
+}
+.form-login ul{
+    list-style: none;
+}
+.form-login{
+    flex: 2;
+    background-color: whitesmoke;
+    margin: auto;
+    width: 300px;
+    height: 500px;
+}.form-container{
+    background-color:lightgrey;
+    height: 300px;
+    width: 500px;
+}
+.form-container ul{
+    list-style: none;
+    
+}
+.form-container input{
+    margin: auto;
+}
+.imgContainer{
+    position: relative;
+    margin: auto;
+    background-color:teal;
+    width: 200px;
+    height: 200px;
+}
+.imgContainer img{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+.roundIcon{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+}
+.roundIcon img{
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+.roundIcon input[type="file"]{
+    transform: scale(3);
+    position: absolute;
+    top: 10px;
+    left: 60px;
+    opacity: 0;
+}
